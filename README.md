@@ -2,8 +2,8 @@
 网上的资料也太少了吧！
 
 ## 环境
-> 主控端服务器：Centos7  192.168.106.201 
-> 节点服务器（虚拟机）：Centos7  192.168.106.2
+> 主控端服务器：Centos7  192.168.106.201 <br>
+> 节点服务器（虚拟机）：Centos7  192.168.106.2 <br>
 > 虚拟机里面的虚拟机：ttylinux (chop wood,carry wa/etc/selinux/configter)
 
 ## 主控端配置
