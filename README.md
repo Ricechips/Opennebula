@@ -30,6 +30,7 @@
 > *systemctl start opennebula* *systemctl start opennebula-sunstone*开启服务
 > *oneuser show*验证是否正常安装
 > *http://ip:9869*浏览器访问控制面板
+![avatar](https://github.com/Ricechips/Opennebula/blob/master/pictures/2020-05-21%2017-11-40%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 ## 节点服务器配置
 > 创建虚拟机并配置网络
