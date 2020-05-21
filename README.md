@@ -14,7 +14,7 @@
 
 > 第二种方法：正常流程安装<br>
 > *vim /etc/selinux/config*将*SELINUX=disabled*，reboot<br>
-> <br>加源<br>
+> 加源<br>
 > cat << "EOT" > /etc/yum.repos.d/opennebula.repo
 <br> [opennebula]
 <br> name=opennebula
