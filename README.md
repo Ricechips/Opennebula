@@ -38,7 +38,7 @@
 > 加源并安装依赖*yum install opennebula-node-kvm* 重启服务*systemctl restart libvirtd*<br>
 > 禁用SElinux<br>
 > 配置ssh无密码连接 *vim /etc/hosts*修改主机名如：<br>192.168.106.201 host <br> 192.168.106.2 node<br>
-<br> *ssh-keyscan host node  >> /var/lib/one/.ssh/known_hosts* <br> *scp /etc/hosts root@node:/etc/hosts* <br> 此时主控端ssh node可直接登陆节点
+<br> *ssh-keyscan host node  >> /var/lib/one/.ssh/known_hosts* <br> * scp /var/lib/one/.ssh/*  root@node:/var/lib/one/.ssh/* <br> 此时主控端ssh node可直接登陆节点
 
 ## sunstone面板
 > 设置可以切换中文<br>
