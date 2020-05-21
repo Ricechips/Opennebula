@@ -44,6 +44,7 @@
 > 设置可以切换中文
 > 基础设施->主机 添加node节点(kvm类型)
 > 从opennebula public下载镜像创建虚机进行管理
+![avatar](https://github.com/Ricechips/Opennebula/blob/master/pictures/2020-05-21%2017-44-16%20%E7%9A%84%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE.png)
 
 
 
