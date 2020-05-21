@@ -14,7 +14,7 @@
 
 > 第二种方法：正常流程安装<br>
 > *vim /etc/selinux/config*将*SELINUX=disabled*，reboot<br>
-> 加源<br>
+> 加源<br><br>
 > cat << "EOT" > /etc/yum.repos.d/opennebula.repo
 <br> [opennebula]
 <br> name=opennebula
@@ -23,7 +23,7 @@
 <br> gpgkey=https://downloads.opennebula.org/repo/repo.key
 <br> gpgcheck=1
 <br> repo_gpgcheck=1
-<br> EOT
+<br> EOT<br><br>
 > *yum install epel-release*<br>
 > *yum install opennebula-server opennebula-sunstone opennebula-ruby opennebula-gate opennebula-flow*安装依赖<br>
 > *echo "oneadmin:mypassword" > ~/.one/one_auth*设置管理平台帐号密码<br>
